@@ -1,0 +1,77 @@
+.container{
+  height: 60px;
+  width: 100%;
+  border-bottom: 1px solid #999;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 85%;
+    height: 100%;
+    padding: 0.5rem 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} 
+
+/* left */
+.left > a{
+    font-size: 26px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #555;
+}
+
+/* center */
+
+.center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+    height: 40px;
+    width: 240px;
+    border: 1px solid #888;
+    border-radius: 20px;
+}
+
+.center > input{
+    padding-right: 0.5rem;
+    border: none;
+    outline: none;
+    border-right: 1px solid #333;
+}
+
+.center > .searchIcon{
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.center:focus-within{
+    border-color: #000;
+}
+
+
+/* right */
+
+.right{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.right > .icons{
+    display: flex;
+    align-items: center;
+    font-size: 22px;
+    gap: 0.5rem;
+    cursor: pointer;
+}
+
+.profileUserImg{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+}
